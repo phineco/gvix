@@ -206,7 +206,26 @@ namespace DotSpatial.Plugins.MenuBar.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
+
+        internal static System.Drawing.Bitmap zoom_coordinate_16x16
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("zoom_coordinate_16x16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        internal static System.Drawing.Bitmap zoom_coordinate_32x32
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("zoom_coordinate_32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+
         internal static System.Drawing.Bitmap layer_add_16x16 {
             get {
                 object obj = ResourceManager.GetObject("layer_add_16x16", resourceCulture);
